@@ -1,0 +1,94 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+h1.mySuccess {
+  font-family: Lato;
+  color: #292929;
+  /* width: 35vw; */
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0vh 0vw 5vh 0vw;
+}
+
+p.modal {
+  margin: 0;
+}
+
+div.iBannerFix {
+  height: 10vh;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  color: black;
+  z-index: 99;
+  margin: 5vh 1vw;
+  display: flex;
+  justify-content: center;
+}
+
+div.iBannerFix2 {
+  height: 10vh;
+  width: 10vh;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  color: black;
+  z-index: 99;
+  margin: 5vh 1vw;
+  display: flex;
+  justify-content: center;
+}
+
+div.iBannerFix3 {
+  /* display: flex; */
+  text-align: left;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+button.iBack {
+  background-color: #ffffff;
+  color: black;
+  margin: 0vh 1vw;
+  width: 41.984vw;
+  height: 7.94vh;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px grey;
+  font-size: 1.125rem;
+}
+
+button.iBack2 {
+  background-color: #ffffff;
+  color: black;
+  margin: 0vh 1vw;
+  width: 82.984vw;
+  height: 7.94vh;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px grey;
+  font-size: 1.125rem;
+}
+
+button.iNext {
+  background-color: #f8c854;
+  color: white;
+  margin: 0vh 1vw;
+  width: 41.984vw;
+  height: 7.94vh;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px grey;
+  font-size: 1.125rem;
+}
+
+.columns {
+  column-count: 2;
+}
